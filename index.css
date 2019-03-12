@@ -1,18 +1,18 @@
 html {
 	margin: 0;
 	padding: 0;
-	background: url(https://www.dphotographer.co.uk/users/14802/thm1024/img_0021edit.jpg);
+
 	}
 body {
-	font: 75% georgia, sans-serif;
+	font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
 	line-height: 1.88889;
 	color: #555753;
-	background: url(https://www.dphotographer.co.uk/users/14802/thm1024/img_0021edit.jpg);
+	/*background: url("https://www.dphotographer.co.uk/users/14802/thm1024/img_0021edit.jpg");*/
 	margin: 0;
 	padding: 0;
 	}
 
-	h1 {
+	/*h1 {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 0;
