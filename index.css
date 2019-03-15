@@ -28,14 +28,14 @@
 	    </body>
 	     </style>*/
 .nav{
-color:red;
+color:black;
 float:right;
 }
 .nav ul{
 text-align:right;
 }
 .nav a{
-color:green;
+color:black;
 
 }
 	h1 {
@@ -43,7 +43,7 @@ color:green;
 	font: "Birka W01","2.4em Georgia","sans-serif";
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: red;
+	color: black;
 	}
 	ul {
 	font-weight: bold;
