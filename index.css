@@ -7,9 +7,13 @@
 	padding: 0;
 	text-align: center;
 	}*/
-	/*<style>
-	body
-	<!-- Links (sit on top)-->
+
+	li {
+	    display: inline;
+	}
+
+
+	/*<!-- Links (sit on top)-->
 	<div class="top">
 	  <div class="row padding" black">
 	    <div class>
@@ -22,11 +26,8 @@
 	 </div>
 	<div class>
 <a href="#contact" class=button-block-black">CONTACT</a>
-	</div>
-	 </div>
-	   </div>
-	    </body>
-	     </style>*/
+
+
 .nav{
 color:black;
 float:right;
@@ -59,4 +60,4 @@ color:black;
 		color: black;
 		margin-left: 30px;
 	}
-}
+}*/
