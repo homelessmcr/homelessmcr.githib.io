@@ -7,7 +7,7 @@
 	padding: 0;
 	text-align: center;
 	}*/
-	<style>
+	/*<style>
 	body
 	<!-- Links (sit on top)-->
 	<div class="top">
@@ -26,14 +26,24 @@
 	 </div>
 	   </div>
 	    </body>
-	     </style>
-	/*
+	     </style>*/
+.nav{
+color:red;
+float:right;
+}
+.nav ul{
+text-align:right;
+}
+.nav a{
+color:green;
+
+}
 	h1 {
 	text-align: center;
 	font: "Birka W01","2.4em Georgia","sans-serif";
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: black;
+	color: red;
 	}
 	ul {
 	font-weight: bold;
