@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>My Map</h3>
+
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+
+  var manchester = {lat: 53.483959, lng: -2.244644};
+
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: manchester});
+
+  var marker = new google.maps.Marker({position: manchester, map: map});
+}
+    </script>
+
+    <script async defer
+    src="http://ontheworldmap.com/uk/city/manchester/manchester-city-center-map.jpg">
+    </script>
+  </body>
+</html>
