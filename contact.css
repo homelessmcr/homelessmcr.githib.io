@@ -1,5 +1,6 @@
 
-input[type=text], select, textarea {
+<div class="container"{
+input[type=text], select, textarea 
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -9,10 +10,10 @@ input[type=text], select, textarea {
   margin-bottom: 16px;
   resize: vertical
 }
-
+</div>
 
 input[type=submit] {
-  background-color: grey
+  background-color: black;
   color: white;
   padding: 12px 20px;
   border: none;

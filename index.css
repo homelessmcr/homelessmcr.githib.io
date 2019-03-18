@@ -7,10 +7,24 @@
 	padding: 0;
 	text-align: center;
 	}*/
-
+	body {
+	  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
+	}
+	
 	li {
 	    display: inline;
+
 	}
+	nav {
+    width: 200%;
+  }
+}
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
 
 
 	/*<!-- Links (sit on top)-->
