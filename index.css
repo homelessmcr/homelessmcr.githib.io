@@ -7,71 +7,75 @@
 	padding: 0;
 	text-align: center;
 	}*/
-	body {
-	  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
-	}
-	
-	li {
-	    display: inline;
 
-	}
-	nav {
-    width: 200%;
-  }
-}
-nav ul {
-  list-style: none;
-  overflow: hidden;
-  text-align: right;
-  float: right;
-}
+			body {
+			  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
+			}
 
+			li {
+			    display: inline;
 
-	/*<!-- Links (sit on top)-->
-	<div class="top">
-	  <div class="row padding" black">
-	    <div class>
-	      <a href="#" class="button-block-black">HOME</a>
-	       </div>
-	        <a href="#about" class="button-block-black">ABOUT</a>
-	      </div class>
-	    <div class>
-	   <a href="#map" class="button-block-black">MAP</a>
-	 </div>
-	<div class>
-<a href="#contact" class=button-block-black">CONTACT</a>
+			}
+			nav {
+		    width: 200%;
+
+		  }
+		}
+	/*	nav ul {
+		  list-style: none;
+		  overflow: hidden;
+		  text-align: right;
+		  float: right;
+
+		}*/
 
 
-.nav{
-color:black;
-float:right;
-}
-.nav ul{
-text-align:right;
-}
-.nav a{
-color:black;
 
-}
-	h1 {
-	text-align: center;
-	font: "Birka W01","2.4em Georgia","sans-serif";
-	letter-spacing: 1px;
-	margin-bottom: 0;
-	color: black;
-	}
-	ul {
-	font-weight: bold;
-	font: "Birka W01","2.4em Georgia","sans-serif";
-	text-decoration: none;
-	color: black;
-	background-color: white;
-	}
-	p{
-		font-weight: bold;
-		font:"Birka W01","2.4em Georgia","sans-serif";
-		text-decoration: none;
-		color: black;
-		margin-left: 30px;
-	}
-}*/
+			/*<!-- Links (sit on top)-->
+			<div class="top">
+			  <div class="row padding" black">
+			    <div class>
+			      <a href="#" class="button-block-black">HOME</a>
+			       </div>
+			        <a href="#about" class="button-block-black">ABOUT</a>
+			      </div class>
+			    <div class>
+			   <a href="#map" class="button-block-black">MAP</a>
+			 </div>
+			<div class>
+		<a href="#contact" class=button-block-black">CONTACT</a>
+
+
+		.nav{
+		color:black;
+		float:right;
+		}
+		.nav ul{
+		text-align:right;
+		}
+		.nav a{
+		color:black;
+
+		}
+			h1 {
+			text-align: center;
+			font: "Birka W01","2.4em Georgia","sans-serif";
+			letter-spacing: 1px;
+			margin-bottom: 0;
+			color: black;
+			}
+			ul {
+			font-weight: bold;
+			font: "Birka W01","2.4em Georgia","sans-serif";
+			text-decoration: none;
+			color: black;
+			background-color: white;
+			}
+			p{
+				font-weight: bold;
+				font:"Birka W01","2.4em Georgia","sans-serif";
+				text-decoration: none;
+				color: black;
+				margin-left: 30px;
+			}
+		}*/
