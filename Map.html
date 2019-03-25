@@ -12,24 +12,7 @@
   </head>
   <body>
 
-    <h3>My Map</h3>
+    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;"><div id="mymap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=manchester&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlemap-code" href="https://dedicatedhosting.pro" id="make-mapinformation">here</a><style>#mymap-canvas .text-marker{}.map-generator{max-width: 100%; max-height: 100%; background: none;</style></div>
 
-    <div id="map"></div>
-    <script>
-
-function initMap() {
-
-  var manchester = {lat: 53.483959, lng: -2.244644};
-
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: manchester});
-
-  var marker = new google.maps.Marker({position: manchester, map: map});
-}
-    </script>
-
-    <script async defer
-    src="http://ontheworldmap.com/uk/city/manchester/manchester-city-center-map.jpg">
-    </script>
   </body>
 </html>
