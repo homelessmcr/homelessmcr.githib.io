@@ -2,7 +2,7 @@ $(function () {
 
 'use strict';
 		// error variables
-		var UserError  = true,
+	var UserError  = true,
 			EmailError = true,
 			SubError   = true,
 			MsgError   = true;
