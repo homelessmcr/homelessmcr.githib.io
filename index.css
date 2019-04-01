@@ -2,12 +2,10 @@
 
 	font-family: "Birka W01","Georgia","Times","New Roman","DejaVu Serif","serif";
 	background-image: url(https://www.dphotographer.co.uk/users/14802/thm1024/img_0021edit.jpg);
-	/*background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/01/High-Quality-Crumpled-White-Paper-Texture.jpg);
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	}*/
 
+#navTitle  {
+	font-size: 150px;
+}
 			body {
 			  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
 				text-align: justify;
@@ -21,11 +19,6 @@
 		    width: 200%;
 
 		  }
-
-			#navbar-brand {
-				font-size: 50px;
-			}
-
 			.mt-0 {
 			  margin-top: 50 !important;
 			}
@@ -43,61 +36,3 @@
 	  padding: $spacer !important;
 	}
 		}
-	/*	nav ul {
-		  list-style: none;
-		  overflow: hidden;
-		  text-align: right;
-		  float: right;
-
-		}*/
-
-
-
-			/*<!-- Links (sit on top)-->
-			<div class="top">
-			  <div class="row padding" black">
-			    <div class>
-			      <a href="#" class="button-block-black">HOME</a>
-			       </div>
-			        <a href="#about" class="button-block-black">ABOUT</a>
-			      </div class>
-			    <div class>
-			   <a href="#map" class="button-block-black">MAP</a>
-			 </div>
-			<div class>
-		<a href="#contact" class=button-block-black">CONTACT</a>
-
-
-		.nav{
-		color:black;
-		float:right;
-		}
-		.nav ul{
-		text-align:right;
-		}
-		.nav a{
-		color:black;
-
-		}
-			h1 {
-			text-align: center;
-			font: "Birka W01","2.4em Georgia","sans-serif";
-			letter-spacing: 1px;
-			margin-bottom: 0;
-			color: black;
-			}
-			ul {
-			font-weight: bold;
-			font: "Birka W01","2.4em Georgia","sans-serif";
-			text-decoration: none;
-			color: black;
-			background-color: white;
-			}
-			p{
-				font-weight: bold;
-				font:"Birka W01","2.4em Georgia","sans-serif";
-				text-decoration: none;
-				color: black;
-				margin-left: 30px;
-			}
-		}*/

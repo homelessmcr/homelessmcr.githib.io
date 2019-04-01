@@ -1,21 +1,75 @@
-<div class="container">
-  <form action="action_page.php">
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+   -->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <link rel="stylesheet" type="text/css" href="contact.css">
+ </head>
 
-    <div class="mx-auto" style="width: 5000px;">
+  <body>
+    
+    <div class="container">
+		<h2 class="text-center">Contact Us</h2>
+		  <div class="errors">
+		    </div>
+			<form action="<?=$_SERVER['PHP_SELF']?>" class="contact-form" method="POST">
+			<div class="form-group">
+		<input type="text" name="name" id="name" class="name form-control" placeholder="Your name" value="">
+  <i class="fa fa-user"></i>
+		 <span class="asterix">*</span>
+		 <span class="cross">x</span>
+		 <span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+				<div class="alert alert-danger custom-alert">
+					user must be more than 3 letter
+				</div>
+				</div>
 
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+				<div class="form-group">
+				<input type="text" name="email" class=" email form-control" placeholder="Your Email" value="">
+				<i class="fa fa-envelope"></i>
+				<span class="asterix">*</span>
+				<span class="cross">x</span>
+				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+				<div class="alert alert-danger custom-alert">
+					Email can not be empty
+				</div>
+				</div>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+
+				<div class="form-group">
+				<input type="text" name="subject" class="subject form-control" placeholder="Your subject" value="">
+				<i class="fa fa-pencil"></i>
+				<span class="asterix">*</span>
+				<span class="cross">x</span>
+				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+				<div class="alert alert-danger custom-alert">
+					Subject can not be empty
+				</div>
+				</div>
 
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Type your message here.." style="height:200px"></textarea>
+				<div class="form-group">
+				<textarea class=" message form-control" name="message" placeholder="Your Message"></textarea>
+				<i class="fa fa-comments message-icon"></i>
+				<span class="asterix">*</span>
+				<span class="cross">x</span>
+				<span class="verify"><i class="fa fa-check" aria-hidden="true"></i></span>
+				<div class="alert alert-danger custom-alert">
+					message should be more than <b>10</b> characteres
+				</div>
+				</div>
 
-    <input type="submit" value="Submit"> <br>
-    </div>
-
-  </form>
-</div>
+				<div class="form-group">
+				<input type="submit" value="send" class="btn btn-success btn-block"  id="btn-success">
+				<i class="fa fa-paper-plane send-icon"></i>
+				</div>
+			</form>
+		</div>
+  </body>
+</html>
