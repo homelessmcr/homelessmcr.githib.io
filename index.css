@@ -6,12 +6,61 @@
 #navTitle  {
 	font-size: 150px;
 }
-			body {
+body {
 			  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
 				text-align: justify;
 			}
+.button{
+	color: grey;
+}
 
-			li {
+  position: absolute;
+  top: 35%;
+
+}
+div {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+}
+
+.row {
+	padding: 20;
+	color: black;
+}
+
+body.html {
+  height: 100%;
+}
+
+.row {
+	padding: 20;
+	color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+section{
+	padding: 5%;
+}
+
+.column{
+	position: relative;
+	float: left;
+ width: 50%;
+ padding: 5%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+			/*li {
 			    display: inline;
 
 			}
@@ -35,4 +84,4 @@
 	.p-3 {
 	  padding: $spacer !important;
 	}
-		}
+		}-->
