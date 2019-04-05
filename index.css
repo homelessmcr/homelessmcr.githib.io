@@ -10,6 +10,7 @@ body {
 			  font-family: "Birka W01",Georgia,"Times New Roman","DejaVu Serif",serif;
 				text-align: justify;
 			}
+
 .button{
 	color: grey;
 }
@@ -23,11 +24,6 @@ div {
   height: 200px;
   display: block;
   position: relative;
-}
-
-.row {
-	padding: 20;
-	color: black;
 }
 
 body.html {
