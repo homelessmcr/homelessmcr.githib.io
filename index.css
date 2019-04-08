@@ -5,6 +5,7 @@
 	background-color: white
 
 }
+ellipse(200, 200, 300, 350);
 
 #navTitle {
 	font-size: 15px;
@@ -13,8 +14,6 @@ body { font-family: "inherit","Birka W01",Georgia,"Times New Roman","DejaVu Seri
 				text-align: justify;
 				background-color: #3d00cc
 			}
-
-
 
 /* div {
   width: 200px;
